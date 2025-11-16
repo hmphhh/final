@@ -66,4 +66,13 @@ public class DigitalVideoDisc {
         this.length = length;
         this.cost = cost;
     }
+
+    public String toString() {
+        return "DVD" + "[" + this.id + "]"
+                + "[" + this.title + "]"
+                + "[" + this.cost + "]"
+                + "[" + this.length + "]"
+                + "[" + this.category + "]"
+                + "[" + this.director + "]";
+    }
 }
